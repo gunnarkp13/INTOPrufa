@@ -28,10 +28,15 @@ void spila( );
 //mismargar hrúgur í hvert og eitt skipti:
 int hrugufjoldi;
 
+//Hér set ég inn breytingu fyrir verkefni í INTO
+int Gunnar;
+
 //Hér byrjar aðalforritið:
 int main( )
+
 {
 	int val;
+	Gunnar;
 	do
 	{
 		cout << endl << endl << endl;
@@ -230,3 +235,10 @@ int samtals( int* hruga )
 
 	return samtala;
 }
+
+int Gunnar()
+{
+	cout << "Gunnar Karl Palmason" << endl;
+	
+}
+	
